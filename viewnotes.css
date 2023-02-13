@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.viewnotes {
+    background-color: #eff8fb;
+    margin: 10px 10px;
+}
+
+.notes {
+    margin: 10px 10px;
+    background-color: #d2ecf3;
+}
+
+.title {
+    color: #3e9ad7;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.bottom-block {
+    color: #5cb8f6;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+

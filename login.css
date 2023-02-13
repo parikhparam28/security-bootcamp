@@ -1,0 +1,94 @@
+.material-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px !important;
+    height: 32px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+* {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-weight: normal;
+} 
+
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff8fb;
+    width: 80%;
+    height: 700px;
+}
+
+.password-block, .username-block {
+    display: flex;
+    background-color: #d2ecf3;
+    border-radius: 50px;
+    padding: 2px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.password-block input , .username-block input{
+    border: 0;
+    color: black;
+    outline: none;
+    background-color: #d2ecf3;
+}
+
+.bottom-blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.create-acc {
+    background-color: #d2ecf3;
+    text-align: center;
+    color: #3e9ad7;
+    border-radius: 50px;
+    padding: 5px;
+    width: 250px;
+    border: 2px solid;
+}
+
+.login-block {
+    background-color: #d2ecf3;
+    border-radius: 50px;
+    padding: 2px 50px;
+    text-align: center;
+    color: #3e9ad7;
+    border: 2px solid #3e9ad7;
+}
+
+button:active {
+    border: 2px solid #d2ecf3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="login-page">
+            <img src="resources/loginimg.png" alt="img">
+            <div class="username-block"> 
+                <div class="material-icons">person</div>
+                <label for="email"></label>
+                <input type="text" name="email" id="emailid" placeholder="Email ID" >
+            </div>  
+            <div class="password-block">
+                <div class="material-icons">lock</div>
+                <label for="password"></label>
+                <input type="password" name="password" id="pass-word" placeholder="Password">
+            </div>   
+            <div class="bottom-blocks">
+                <button type="button" onclick="createAcc()" class="create-acc"> Create Account</button>
+                <button type="button" onclick="loginAcc()" class="login-block">login</button>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
