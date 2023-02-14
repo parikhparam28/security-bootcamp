@@ -1,5 +1,7 @@
-function createAcc(){
+var jwt_token;
 
+function createAcc(){
+    window.open('signup_url','_blank')
 }
 
 function loginAcc(){
@@ -20,8 +22,15 @@ function loginAcc(){
         alert('Error:' + error)
     })
 
+    jwt_token = data.body
+
     if(data.response == 'success')
         window.open('login_page_url',"_blank")
     else 
         alert('Wrong Credentials')
+}
+
+function checkJWTtoken()
+{
+
 }
