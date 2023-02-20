@@ -5,6 +5,12 @@ function createAcc(){
 }
 
 function loginAcc(){
+
+
+    .then(response => response.json())
+    .then(response => console.log(JSON.stringify(response)))
+
+
     let emailid = document.getElementById("emailid").value;
     let password = document.getElementById("pass-word").value;
     console.log(emailid,password)
@@ -34,3 +40,9 @@ function checkJWTtoken()
 {
 
 }
+
+function forgotPassword()
+{
+    alert('Reset link has been sent to your email-id')
+}
+
